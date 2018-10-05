@@ -1,26 +1,22 @@
 {
-  "name": "robinhood-ts",
+  "name": "rcal",
   "version": "0.0.1",
-  "description": "TypeScript version of robinhood-node",
-  "main": "index.js",
+  "description": "Redis Collection Abstraction Layer",
+  "main": "build/index.js",
   "scripts": {
-    "test": "nyc jasmine-ts \"src/test/*.spec.ts\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teschty/rcal.git"
+  },
+  "keywords": [
+    "redis"
+  ],
   "author": "Tyler Tesch",
   "license": "MIT",
-  "dependencies": {
-    "@types/lodash": "^4.14.116",
-    "@types/query-string": "^6.1.0",
-    "@types/request": "^2.47.1",
-    "lodash": "^4.17.10",
-    "query-string": "^6.1.0",
-    "request": "^2.88.0"
+  "bugs": {
+    "url": "https://github.com/teschty/rcal/issues"
   },
-  "devDependencies": {
-    "@types/jasmine": "^2.8.8",
-    "istanbul": "^0.4.5",
-    "jasmine": "^3.2.0",
-    "jasmine-ts": "^0.2.1",
-    "nyc": "^13.0.1"
-  }
+  "homepage": "https://github.com/teschty/rcal#readme"
 }
