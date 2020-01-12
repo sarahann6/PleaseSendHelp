@@ -239,11 +239,6 @@ interface Report {
     verified: boolean;
 }
 
-interface EPS {
-    estimate?: string;
-    actual: string;
-}
-
 interface SP500 {
     instrument_url: string;
     symbol: string;
