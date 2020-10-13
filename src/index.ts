@@ -346,13 +346,3 @@ export class Robinhood {
         return this.get(url);
     }
 }
-
-let x = new Robinhood({ username: "teschty", password: "rdhcset4821" });
-
-(async () => {
-    await x.login();
-    let res = await x.createWatchList("tech");
-
-    console.log(JSON.stringify(res))
-
-})();
