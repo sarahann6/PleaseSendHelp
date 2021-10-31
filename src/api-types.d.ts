@@ -44,7 +44,7 @@ interface QuoteData {
 }
 
 interface InstrumentData {
-    margin_initial_ratio: string;
+    margin_initial_ratido: string;
     rhs_tradability: string;
     id: string;
     market: string;
@@ -54,7 +54,7 @@ interface InstrumentData {
     tradability: string;
     state: string;
     type: string;
-    tradeable: boolean;
+    tradeable: string;
     fundamentals: string;
     quote: string;
     symbol: string;
